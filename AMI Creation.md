@@ -5,7 +5,6 @@
 2.2 Click on Services and EC2 under Compute Section
 2.3 Click on Launch instances button.
 * Give the name as **my linux vm**
-    
 ![image](https://github.com/Asma09Akram/Asma09Akram/assets/124654068/fa14b901-4109-4e54-87bd-9c8166d81e4b)
 
 * Select Amazon Linux 2023 AMI image
