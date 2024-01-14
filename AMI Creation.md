@@ -52,20 +52,22 @@ systemctl enable httpd		`
 
 
 2.5 Keep remaining things default and click on Launch Instance
-![image](https://github.com/Asma09Akram/Asma09Akram/assets/124654068/105c05f0-f98b-4295-8282-03bcbcf4965f)
+![image](https://github.com/Asma09Akram/AWS-AMI-Creation/assets/124654068/b61deaf1-2b73-4060-872c-ea5c7ff6ac62)
 
 
 Note down the sample IPv4 Public IP Address of the EC2 instance. 
 Enter http://your IP address
 
-![image](https://github.com/Asma09Akram/Asma09Akram/assets/124654068/2c5f607b-dc6b-42b7-afd4-8b7582c61e6f)
+![image](https://github.com/Asma09Akram/AWS-AMI-Creation/assets/124654068/ce7ad363-7e88-4d76-8ae8-b8546944e9ce)
+
 
 ### Task 3. Creating an AMI from the EC2 Instance
 3.1 In this step, our objective is to generate an Amazon Machine Image (AMI) from the currently active EC2 instance that was established in the preceding task. This procedure showcases the method of encapsulating both the setup and data of an ongoing instance into a replicable image, facilitating the swift creation of identical instances in the future.
 3.2 Select the my linux vm. Click on Actions.
 3.3 Under Image and templates, click on Create Image.
 
-![image](https://github.com/Asma09Akram/Asma09Akram/assets/124654068/a4f8004c-1e5a-448c-b677-e29ababb7eed)
+![image](https://github.com/Asma09Akram/AWS-AMI-Creation/assets/124654068/3743ae7b-ef16-4682-b628-3cfab9b123fc)
+
 
 3.4 In the pop-up window, enter the following details:
 
@@ -73,9 +75,10 @@ Enter http://your IP address
 * Image Description : Enter My EC2 Image
 * Leave other details as default.
 * Click on Create image button.
+  
+![image](https://github.com/Asma09Akram/AWS-AMI-Creation/assets/124654068/9700ac75-3c60-44ee-9e49-a358629f9003)
 
-
-![image](https://github.com/Asma09Akram/Asma09Akram/assets/124654068/62b19ed7-cf46-4261-be86-d76dc975a0ab)
+![image](https://github.com/Asma09Akram/AWS-AMI-Creation/assets/124654068/83fe79e1-d851-441c-8e40-cd748e227714)
 
 ### Task 4: Check the newly created AMI
 
