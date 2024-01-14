@@ -82,22 +82,20 @@ Enter http://your IP address
 
 ### Task 4: Check the newly created AMI
 
-![image](https://github.com/Asma09Akram/Asma09Akram/assets/124654068/4221dd88-9938-4995-9f4d-a0bccf0199ab)
+![image](https://github.com/Asma09Akram/AWS-AMI-Creation/assets/124654068/5eb6aa97-89f0-498d-8d67-9328e93f5583)
 
-
-![image](https://github.com/Asma09Akram/Asma09Akram/assets/124654068/d6f9f811-3f9a-450d-8413-fdd41d20c9fa)
-
-
-![image](https://github.com/Asma09Akram/Asma09Akram/assets/124654068/a6135d73-8341-4351-aa84-bca11e0ad6a2)
 
 
 ### Task 5: Launching the EC2 Instance with the Created AMI and Testing the AMI
 * Select the AMI and click on Launch instance from AMI
   
-![image](https://github.com/Asma09Akram/Asma09Akram/assets/124654068/adc233fc-2c04-4076-905d-c10c3cfa7be6)
+![image](https://github.com/Asma09Akram/AWS-AMI-Creation/assets/124654068/14c612b4-8e95-4b99-8d8c-6f73b5bbe0fd)
+
 
 * Name : Enter MyEC2AMIServer
-![image](https://github.com/Asma09Akram/Asma09Akram/assets/124654068/e48e1e5a-8ac3-4549-b2f8-6049476a01ca)
+
+![image](https://github.com/Asma09Akram/AWS-AMI-Creation/assets/124654068/4ba21a6b-415e-4436-bc62-6162a40eb3bf)
+
 
 * For Instance Type: select t2.micro
 * For Key pair: Select the key you created previously.
@@ -108,25 +106,21 @@ Enter http://your IP address
 * Select View all Instances to View the Instance you Created
 * Launch Status: Your instances are now launching, Navigate to Instances page from left menu and wait the status of the EC2 Instance changes to running
 
+![image](https://github.com/Asma09Akram/AWS-AMI-Creation/assets/124654068/baeb6a38-2e81-4996-ad37-7f278cbb750a)
 
-![image](https://github.com/Asma09Akram/Asma09Akram/assets/124654068/261604bc-f122-40df-8cfa-05c5b303d1be)
-
-
-
-![image](https://github.com/Asma09Akram/Asma09Akram/assets/124654068/3d58d572-7c7e-4014-85c4-15f0017dc4cb)
+![image](https://github.com/Asma09Akram/AWS-AMI-Creation/assets/124654068/4390b82d-7281-4014-b57d-533ad99d4e92)
 
 
 
-![image](https://github.com/Asma09Akram/Asma09Akram/assets/124654068/7d053e98-a586-4864-a089-87c4fcc495b4)
+![image](https://github.com/Asma09Akram/AWS-AMI-Creation/assets/124654068/28664524-ce48-4805-b8b8-3e3addaa4bb6)
 
 
-![image](https://github.com/Asma09Akram/Asma09Akram/assets/124654068/9f0c826f-5268-4c3b-9592-d2ccb548cfea)
 
+![image](https://github.com/Asma09Akram/AWS-AMI-Creation/assets/124654068/fb3eda6a-a8f7-40e4-9a63-6684e91807bc)
 
-![image](https://github.com/Asma09Akram/Asma09Akram/assets/124654068/e81b703a-076c-45d4-80e8-d848e5b0c8fe)
 
 * Navigate to the instances menu and copy the IPv4 Public IP address of the created EC2 instance.
 * Enter the IP Address in the Browser.
 * You will be able to see the HTML page displaying the message Welcome to Our Virtual Server
-![image](https://github.com/Asma09Akram/Asma09Akram/assets/124654068/f89b9347-f13e-4f43-895f-5208607219bc)
 
+![image](https://github.com/Asma09Akram/AWS-AMI-Creation/assets/124654068/0ebcade7-d676-4e75-9145-850d0e635439)
