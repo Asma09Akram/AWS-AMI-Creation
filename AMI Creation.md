@@ -5,26 +5,29 @@
 2.2 Click on Services and EC2 under Compute Section
 2.3 Click on Launch instances button.
 * Give the name as **my linux vm**
-![image](https://github.com/Asma09Akram/Asma09Akram/assets/124654068/fa14b901-4109-4e54-87bd-9c8166d81e4b)
+![image](https://github.com/Asma09Akram/AWS-AMI-Creation/assets/124654068/3e56b941-c6b2-4a68-9fe1-dbb18cb2d2b8)
+
 
 * Select Amazon Linux 2023 AMI image
     
-![image](https://github.com/Asma09Akram/Asma09Akram/assets/124654068/a20d911b-5b2d-45c6-b841-e5665fa89cf1)
+![image](https://github.com/Asma09Akram/AWS-AMI-Creation/assets/124654068/150f1db0-0fc3-4331-9c0c-4bb85a0009dc)
+
 
 * Select Instance Type as t2.micro
-    
-![image](https://github.com/Asma09Akram/Asma09Akram/assets/124654068/c0487dca-5223-49b1-a14a-bf09f2b4f283)
+  ![image](https://github.com/Asma09Akram/AWS-AMI-Creation/assets/124654068/5be64b5d-8da0-40e9-be7d-2d3dbd061e62)
 
 * Create a new Key Pair and give any name of your choice    
     
-![image](https://github.com/Asma09Akram/Asma09Akram/assets/124654068/69c7c5c6-253a-45dc-91a7-c11272220d48)
+![image](https://github.com/Asma09Akram/AWS-AMI-Creation/assets/124654068/61e11e3f-b335-4066-9287-8584baf7c9ab)
+
 
 * Click Edit on Network Settings
 * Select Create new Security group
 * Security group name My VM SG
 * Description : Security Group to allow traffic to EC2
     
-![image](https://github.com/Asma09Akram/Asma09Akram/assets/124654068/ff436bde-fe8c-41e7-83dc-08e85ee806fe)
+![image](https://github.com/Asma09Akram/AWS-AMI-Creation/assets/124654068/5234ea1a-1bcc-4f11-ae5f-bf9656f1d7a5)
+
 
 * To add SSH: Choose Type: SSH
 * Source: Anywhere
@@ -32,7 +35,8 @@
 * Choose Type: HTTP 
 * Source: Anywhere
     
-![image](https://github.com/Asma09Akram/Asma09Akram/assets/124654068/a2bd00cd-3ba5-45b0-aea4-88b5bbcd77fe)
+![image](https://github.com/Asma09Akram/AWS-AMI-Creation/assets/124654068/be06884d-6e00-4922-aaec-b8f6ab4a5a4b)
+
 
 2.4 Click on Advanced Details Under the User data section, enter the following script (which creates an HTML page served by an Apache httpd web server).
 
@@ -43,6 +47,9 @@ yum install httpd -y
 echo "<html><h1> Welcome to Our Virtual Server </h1><html>" >> /var/www/html/index.html       
 systemctl start httpd               
 systemctl enable httpd		`
+
+![image](https://github.com/Asma09Akram/AWS-AMI-Creation/assets/124654068/1cd2251e-d31d-48e8-b079-5ca513f44f7e)
+
 
 2.5 Keep remaining things default and click on Launch Instance
 ![image](https://github.com/Asma09Akram/Asma09Akram/assets/124654068/105c05f0-f98b-4295-8282-03bcbcf4965f)
